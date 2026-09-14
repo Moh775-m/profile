@@ -1,8 +1,10 @@
 .about_container {
   display: grid;
-  grid-template-columns: 20% 30%;
-  gap: 20%;
+  grid-template-columns: 35% 50%; /* الصورة 35% و المحتوى 50% */
+  gap: 15%;
   padding-left: 4rem;
+  align-items: center; /* توسيط عمودي */
+  justify-content: center;
 }
 
 .about_me {
@@ -10,9 +12,13 @@
   aspect-ratio: 1/1;
   border-radius: 2rem;
   background: linear-gradient(45deg, transparent, var(--color-primary), transparent);
+  display: grid; /* عشان نوسط الصورة */
+  place-items: center;
 }
 
 .about_me_image {
+  height: 100%;
+  width: 100%;
   transform: rotate(10deg);
   border-radius: 2rem;
   overflow: hidden;
@@ -36,11 +42,15 @@
   padding: 2rem;
   text-align: center;
   transition: var(--transition);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .about_card:hover {
   background: transparent;
-  border-color: var(--color-bg-variant);
+  border-color: var(--color-primary);
 }
 
 .about_icon {
@@ -48,48 +58,57 @@
   font-size: 1.4rem;
   margin-bottom: 1rem;
 }
-
-.about_card h5 {
-  font-size: 1rem;
+.about_card h5{
+  font-size: 0.95rem;
 }
-
-.about_card small {
-  font-size: 0.8rem;
+.about_card small{
+  font-size: 0.7rem;
   color: var(--color-light);
 }
 
-@media (max-width: 1024px) {
+/* ====== RESPONSIVE ====== */
+
+/* Tablet */
+@media screen and (max-width: 1024px) {
   .about_container {
-    grid-template-columns: 1fr;
-    gap: 0;
+    grid-template-columns: 1fr; /* عمود واحد */
+    gap: 3rem;
+    padding: 0 2rem;
   }
-
   .about_me {
-    width: 50%;
-    margin: 2rem auto 4rem;
+    width: 50%; /* نص الشاشة */
+    margin: 0 auto; /* في النص */
   }
-
-  .about_container p {
-    margin: 1rem 0 1.5rem;
+  .about_cards {
+    grid-template-columns: repeat(3, 1fr); /* نخليها 3 جنب بعض */
   }
 }
 
-@media (max-width: 600px) {
-  .about_me {
-    width: 65%;
-    margin: 0rem auto 3rem;
+/* Mobile */
+@media screen and (max-width: 600px) {
+  .about_container {
+    padding: 0 1rem;
+    gap: 2rem;
   }
-
+  .about_me {
+    width: 65%; /* اكبر شوية في الموبايل */
+    margin: 0 auto;
+  }
   .about_cards {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr); /* 2 في الصف زي skills */
     gap: 1rem;
   }
-
-  .about_container {
-    text-align: center;
+  .about_card {
+    padding: 1.2rem;
   }
-
-  .about_container p {
-    margin: 1.5rem 0rem;
+  .about_icon {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  .about_card h5{
+    font-size: 0.9rem;
+  }
+  .about_card small{
+    font-size: 0.65rem;
   }
 }
