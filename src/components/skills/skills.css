@@ -1,22 +1,22 @@
 .container_skills {
     display: flex;
     justify-content: space-between;
-    align-items: stretch; /* عشان الكروت كلها نفس الطول */
+    align-items: stretch; 
     flex-wrap: wrap;
-    gap: 20px; /* بدل margin-bottom */
+    gap: 15px; /* قللت الجاب شوية */
 }
 
 .container_skills .card_skill {
-    width: calc(25% - 15px); /* 4 في الصف على الديسكتوب */
+    width: calc(25% - 12px); /* 4 في الصف على الديسكتوب */
 
     display: flex;
     align-items: center;
-    gap: 12px;
+    gap: 10px;
 
     border: 1px solid var(--color-bg-variant);
-    padding: 14px;
+    padding: 12px;
     border-radius: 12px;
-    background: var(--color-bg-variant); /* خلي الخلفية واضحة */
+    background: var(--color-bg-variant); 
     
     transition: all 0.3s ease;
 }
@@ -27,10 +27,10 @@
 }
 
 .container_skills .card_skill .icon{
-    width: 40px;       /* ثبت حجم الايقونة */
-    height: 40px;
-    flex-shrink: 0;    /* عشان ما تصغر في الموبايل */
-    padding: 8px;
+    width: 36px;       /* صغرت الايقونة شوية */
+    height: 36px;
+    flex-shrink: 0;    
+    padding: 6px;
     border-radius: 10px;
     background: var(--color-primary-variant);
     display: flex;
@@ -46,37 +46,45 @@
 .container_skills .card_skill .text{
     display: flex;
     flex-direction: column;
+    overflow: hidden; /* عشان النص الطويل ما يكسر الكرت */
 }
 .container_skills .card_skill h4{
-    font-size: 16px;
+    font-size: 15px;
     margin: 0;
+    white-space: nowrap; /* الاسم في سطر واحد */
 }
 .container_skills .card_skill p{
-    font-size: 13px;
+    font-size: 12px;
     color: var(--color-light);
     margin: 0;
+    white-space: nowrap;
 }
 
 /* Tablet: 2 في الصف */
 @media screen and (max-width: 1024px) {
   .container_skills .card_skill {
-    width: calc(50% - 10px); 
+    width: calc(50% - 8px); 
   }
 }
 
-/* Mobile: 1 في الصف */
+/* Mobile: 2 في الصف بدل 1 */
 @media screen and (max-width: 600px) {
   .container_skills {
-    gap: 15px;
+    gap: 10px;
   }
   .container_skills .card_skill {
-    width: 100%; /* كرت واحد كامل */
-    padding: 12px;
+    width: calc(50% - 5px); /* 2 كروت في الصف */
+    padding: 10px;
+  }
+  .container_skills .card_skill .icon{
+    width: 32px;
+    height: 32px;
+    padding: 5px;
   }
   .container_skills .card_skill h4{
-    font-size: 15px;
+    font-size: 13px;
   }
   .container_skills .card_skill p{
-    font-size: 12px;
+    font-size: 11px;
   }
 }
