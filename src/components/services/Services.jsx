@@ -18,7 +18,10 @@ function Services() {
           <MdDesignServices className='icon' />
           <h3>Web Design</h3>
           <p className='text-light'>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae id quam placeat natus, at fugiat?
+          
+           I design modern, clean, and responsive website layouts that match your brand. 
+            Focus on user experience and visual appeal using Figma and Tailwind CSS.
+
           </p>
         </article>
 
@@ -26,7 +29,8 @@ function Services() {
           <IoIosRocket className='icon' />
           <h3>Web Development</h3> 
           <p className='text-light'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae id quam placeat natus, at fugiat?
+           I develop fast and interactive websites using React.js and JavaScript. 
+           Clean code, responsive design, and SEO optimized to make your site work perfectly on all devices.
           </p>
         </article>
 
@@ -34,7 +38,8 @@ function Services() {
           <FaCode className='icon' />
           <h3>UI/UX Design</h3> 
           <p className='text-light'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae id quam placeat natus, at fugiat?
+             I create user-friendly interfaces with smooth interactions. 
+              From wireframes to final UI components in React, I ensure your users have the best experience.
           </p>
         </article>
       </div>

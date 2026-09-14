@@ -25,24 +25,26 @@ function About() {
             <div className="about_card">
               <FaAward className='about_icon' />
               <h5>Experience</h5>
-              <small>2+ Years</small>
+              <small>Recent graduate</small>
             </div>
 
             <div className="about_card">
               <FiUsers className='about_icon' />
               <h5>Clients</h5>
-              <small>20+ Worldwide</small>
+              <small>no one</small>
             </div>
 
             <div className="about_card">
               <VscFolderLibrary className='about_icon' />
               <h5>Projects</h5>
-              <small>30+ Completed</small>
+              <small>5 Completed</small>
             </div>
           </div>
 
           <p>
-            Here you can write about yourself...
+             I'm a Frontend Developer specialized in React.js. 
+             I build fast, responsive, and beautiful user interfaces with clean code. 
+             Passionate about turning designs into interactive web experiences.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>

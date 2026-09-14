@@ -60,10 +60,21 @@
 }
 .about_card h5{
   font-size: 0.95rem;
+  margin-bottom: 0.5rem;
 }
 .about_card small{
   font-size: 0.7rem;
   color: var(--color-light);
+}
+
+/* نص عنك */
+.about_text{
+  text-align: center;
+  color: var(--color-light);
+  font-size: 0.9rem;
+  line-height: 1.7;
+  margin: 1.5rem 0;
+  padding: 0 1rem;
 }
 
 /* ====== RESPONSIVE ====== */
@@ -95,9 +106,17 @@
     margin: 0 auto;
   }
   .about_cards {
-    grid-template-columns: repeat(2, 1fr); /* 2 في الصف زي skills */
+    grid-template-columns: repeat(2, 1fr); /* 2 في الصف */
     gap: 1rem;
   }
+
+  /* خلي اخر كرت "Projects" يتوسط لو كان فردي */
+  .about_cards .about_card:last-child:nth-child(odd) {
+    grid-column: 1 / -1; 
+    width: 55%;
+    margin: 0 auto;
+  }
+
   .about_card {
     padding: 1.2rem;
   }
@@ -110,5 +129,9 @@
   }
   .about_card small{
     font-size: 0.65rem;
+  }
+  .about_text{
+    font-size: 0.85rem;
+    padding: 0 0.5rem;
   }
 }
