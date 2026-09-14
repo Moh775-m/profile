@@ -12,7 +12,7 @@ function Home() {
 
         
         <div className="home_content">
-          <h4>Hello I'm</h4>
+          <h4>Hello </h4>
           <h1>Mohsen Al.mashjari</h1>
           <h4 className="text-light">Frontend Developer</h4>
 
