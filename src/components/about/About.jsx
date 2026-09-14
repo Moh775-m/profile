@@ -42,7 +42,7 @@ function About() {
           </div>
 
           <p>
-             I'm a Frontend Developer specialized in React.js. 
+             I'm a Frontend Developer specialized in React.js
              I build fast, responsive, and beautiful user interfaces with clean code. 
              Passionate about turning designs into interactive web experiences.
           </p>
