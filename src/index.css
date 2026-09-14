@@ -1,0 +1,9 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    padding-bottom: 5rem;
+    :-webkit-scrollbar{
+        display: none;
+    }
+}
