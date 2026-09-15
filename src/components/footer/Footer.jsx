@@ -21,8 +21,8 @@ function Footer() {
       </ul>
 
       <div className="footer_socials">
-        <a href="https://facebook.com" target='_blank' rel='noreferrer'> <FaFacebookF /></a>
-        <a href="https://instagram.com" target='_blank' rel='noreferrer'> <FaInstagram /></a>
+        <a href="https://facebook.com/محسن المشجري" target='_blank' rel='noreferrer'> <FaFacebookF /></a>
+        <a href="https://instagram.com/mr5l7" target='_blank' rel='noreferrer'> <FaInstagram /></a>
         <a href="https://twitter.com" target='_blank' rel='noreferrer'> <FaXTwitter /></a>
       </div>
 
