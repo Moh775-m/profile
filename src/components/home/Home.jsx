@@ -18,7 +18,7 @@ function Home() {
 
           <div className="btns">
             <a href={CV} className="btn" download>
-              Download CV
+              Download My CV
             </a>
 
             <a href="#contact" className="btn btn-primary">
