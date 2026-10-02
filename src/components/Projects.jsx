@@ -15,10 +15,10 @@ const projectsData = [
   {
     id: 2,
     title: "Prayer Times App",
-    desc: "تطبيق مواقيت الصلاة بدقة عالية مع تحديد الموقع التلقائي والتنبيهات.",
+    desc: "تطبيق مواقيت الصلاة بدقة.",
     tech: ["JavaScript", "API", "CSS3"],
     live: "https://moh775-m.github.io/prayer-times/",
-    github: "https://github.com/moh775-m",
+    github: "https://github.com/moh775-m/prayer-times",
     featured: false
   },
   {
