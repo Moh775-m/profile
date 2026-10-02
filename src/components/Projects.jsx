@@ -8,8 +8,8 @@ const projectsData = [
     title: "JAHIZ Platform",
     desc: "منصة خدمات موحدة لحضرموت تخدم 6 قطاعات (حرفيين، معدات، سكن، سوق، وظائف، استراحات).",
     tech: ["React.js", "Supabase", "Tailwind"],
-    live: "https://moh775-m.github.io/services-platform/",
-    github: "https://github.com/moh775-m/services-platform",
+    live: "https://moh775-m.github.io/services-platfom/",
+    github: "https://github.com/moh775-m/services-platfom",
     featured: true
   },
   {
@@ -17,8 +17,8 @@ const projectsData = [
     title: "Prayer Times App",
     desc: "تطبيق مواقيت الصلاة بدقة.",
     tech: ["JavaScript", "API", "CSS3"],
-    live: "https://moh775-m.github.io/prayer-times/",
-    github: "https://github.com/moh775-m/prayer-times",
+    live: "https://moh775-m.github.io/prayer-timer/",
+    github: "https://github.com/moh775-m/prayer-timer",
     featured: false
   },
   {
