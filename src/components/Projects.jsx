@@ -24,7 +24,7 @@ const projectsData = [
   {
     id: 3,
     title: "Portfolio Website",
-    desc: "موقعك الشخصي الحالي بتصميم عصري ومتجاوب لعرض أعمالك.",
+    desc: "موقعي الشخصي الحالي أعمالي .",
     tech: ["React.js", "Framer Motion", "CSS3"],
     live: "https://moh775-m.github.io/profile/",
     github: "https://github.com/moh775-m/profile",

@@ -3,11 +3,11 @@
     justify-content: space-between;
     align-items: stretch; 
     flex-wrap: wrap;
-    gap: 15px; /* قللت الجاب شوية */
+    gap: 15px; 
 }
 
 .container_skills .card_skill {
-    width: calc(25% - 12px); /* 4 في الصف على الديسكتوب */
+    width: calc(25% - 12px); 
 
     display: flex;
     align-items: center;
@@ -27,7 +27,7 @@
 }
 
 .container_skills .card_skill .icon{
-    width: 36px;       /* صغرت الايقونة شوية */
+    width: 36px;       
     height: 36px;
     flex-shrink: 0;    
     padding: 6px;
