@@ -1,0 +1,137 @@
+.projects-section {
+  padding: 4rem 0;
+  text-align: center;
+}
+.section-sub {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+}
+.section-title {
+  color: #4db5ff;
+  font-size: 1.8rem;
+  margin-bottom: 3rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  padding: 0 1rem;
+}
+
+.project-card {
+  background: #1f1f38;
+  border: 1px solid #4db5ff30;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  text-align: left;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.project-card:hover {
+  background: transparent;
+  border-color: #4db5ff;
+  transform: translateY(-5px);
+}
+
+.featured-card {
+  border: 1px solid #4db5ff;
+  background: linear-gradient(135deg, #1f1f38 0%, #2c2c6c 100%);
+}
+
+.featured-badge {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: #4db5ff;
+  color: #1f1f38;
+  font-size: 0.7rem;
+  padding: 3px 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.project-card h3 {
+  color: #fff;
+  margin: 0.5rem 0 1rem;
+  font-size: 1.2rem;
+}
+
+.project-card p {
+  color: #a0a0a0;
+  font-size: 0.85rem;
+  line-height: 1.6;
+  min-height: 65px;
+}
+
+.project-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 1.2rem 0;
+}
+
+.project-tech span {
+  background: rgba(77, 181, 255, 0.15);
+  color: #4db5ff;
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 0.7rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+.project-links a {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.6rem 1rem;
+  border-radius: 0.8rem;
+  font-size: 0.8rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn-live {
+  background: #4db5ff;
+  color: #1f1f38;
+  flex: 1;
+  justify-content: center;
+}
+
+.btn-github {
+  background: transparent;
+  color: #4db5ff;
+  border: 1px solid #4db5ff;
+  flex: 1;
+  justify-content: center;
+}
+
+.btn-live:hover, .btn-github:hover {
+  background: #fff;
+  color: #1f1f38;
+  border-color: #fff;
+}
+
+/* للجوال - نفس تنسيق باقي المكونات عندك */
+@media screen and (max-width: 1024px) {
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects-container {
+    grid-template-columns: 1fr;
+    padding: 0;
+  }
+  .project-card p {
+    min-height: auto;
+  }
+}

@@ -7,6 +7,7 @@ import Skills from './components/skills/Skills'
 import About from './components/about/About'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
+import Projects from './components/Projects'
 
 import './App.css'
 
@@ -18,6 +19,7 @@ function App() {
      <Home/>
      <About/>
      <Skills/>
+     <Projects></Projects>
      <Services/>
      <Contact/>
      <Footer/>
