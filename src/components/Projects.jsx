@@ -24,12 +24,21 @@ const projectsData = [
   {
     id: 3,
     title: "Portfolio Website",
-    desc: "موقعي الشخصي الحالي أعمالي .",
+    desc: "موقعي الشخصي يعرض أعمالي .",
     tech: ["React.js", "Framer Motion", "CSS3"],
     live: "https://moh775-m.github.io/profile/",
     github: "https://github.com/moh775-m/profile",
     featured: false
-  }
+  },
+  {
+  id: 4,
+  title: "NOOR - نور المسلم",
+  desc: "تطبيق إسلامي متكامل PWA - قرآن كريم، أذكار، أوقات الصلاة، أسماء الله الحسنى، أحاديث نووية وأدعية. يدعم التثبيت كتطبيق والعمل بدون إنترنت.",
+  tech: ["React.js", "Vite PWA", "Tailwind CSS", "Local Storage"],
+  live: "https://moh775-m.github.io/noor/",
+  github: "https://github.com/moh775-m/noor",
+  featured: true
+},
 ];
 
 const Projects = () => {
