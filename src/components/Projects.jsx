@@ -6,7 +6,7 @@ const projectsData = [
   {
     id: 1,
     title: "JAHIZ Platform",
-    desc: "منصة خدمات موحدة لحضرموت تخدم 6 قطاعات (حرفيين، معدات، سكن، سوق، وظائف، استراحات).",
+    desc: "منصة لعرض بعض الخدمات في حضرموت -لا زالت في مرحلة التطوير- (حرفيين، معدات، سكن، سوق، وظائف، استراحات ......).",
     tech: ["React.js", "Supabase", "Tailwind"],
     live: "https://moh775-m.github.io/services-platfom/",
     github: "https://github.com/moh775-m/services-platfom",
