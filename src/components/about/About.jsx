@@ -32,7 +32,7 @@ function About() {
         <div className="about_content">
           <div className="about_cards">
             
-            {/* Experience -> يوديك للمهارات */}
+          
             <div 
               className="about_card" 
               onClick={() => scrollToSection('skills')}
@@ -44,7 +44,7 @@ function About() {
               <small>Recent graduate</small>
             </div>
 
-            {/* Clients -> يوديك للتواصل */}
+            
             <div 
               className="about_card"
               onClick={() => scrollToSection('contact')}
@@ -56,7 +56,7 @@ function About() {
               <small>no one</small>
             </div>
 
-            {/* Projects -> يوديك للمشاريع */}
+            
             <div 
               className="about_card"
               onClick={() => scrollToSection('projects')}
